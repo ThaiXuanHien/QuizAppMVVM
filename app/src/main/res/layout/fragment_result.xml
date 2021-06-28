@@ -8,7 +8,7 @@
     tools:context=".ResultFragment">
 
     <TextView
-        android:id="@+id/results_title"
+        android:id="@+id/txt_title_results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
-        android:id="@+id/results_progress"
+        android:id="@+id/pgb_results"
         style="?android:attr/progressBarStyle"
         android:layout_width="128dp"
         android:layout_height="128dp"
@@ -32,23 +32,23 @@
         android:indeterminateTint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_title" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_results" />
 
     <TextView
-        android:id="@+id/results_percent"
+        android:id="@+id/txt_results_percent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/work_sans"
         android:text="100%"
         android:textColor="@color/colorPrimary"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/results_progress"
-        app:layout_constraintEnd_toEndOf="@+id/results_progress"
-        app:layout_constraintStart_toStartOf="@+id/results_progress"
-        app:layout_constraintTop_toTopOf="@+id/results_progress" />
+        app:layout_constraintBottom_toBottomOf="@+id/pgb_results"
+        app:layout_constraintEnd_toEndOf="@+id/pgb_results"
+        app:layout_constraintStart_toStartOf="@+id/pgb_results"
+        app:layout_constraintTop_toTopOf="@+id/pgb_results" />
 
     <TextView
-        android:id="@+id/results_correct"
+        android:id="@+id/txt_title_results_correct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -58,10 +58,10 @@
         android:textColor="@color/colorLightText"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_progress" />
+        app:layout_constraintTop_toBottomOf="@+id/pgb_results" />
 
     <TextView
-        android:id="@+id/results_wrong"
+        android:id="@+id/txt_title_results_wrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -71,10 +71,10 @@
         android:textColor="@color/colorLightText"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_correct" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_results_correct" />
 
     <TextView
-        android:id="@+id/results_missed"
+        android:id="@+id/txt_results_missed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -84,10 +84,10 @@
         android:textColor="@color/colorLightText"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_wrong" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_results_wrong" />
 
     <TextView
-        android:id="@+id/results_correct_text"
+        android:id="@+id/txt_results_correct_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -96,23 +96,10 @@
         android:textColor="@color/colorLightText"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/results_correct" />
+        app:layout_constraintTop_toTopOf="@+id/txt_title_results_correct" />
 
     <TextView
-        android:id="@+id/results_wrong_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:fontFamily="@font/work_sans"
-        android:text="NA"
-        android:textColor="@color/colorLightText"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_correct_text" />
-
-    <TextView
-        android:id="@+id/results_missed_text"
+        android:id="@+id/txt_results_wrong_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -122,10 +109,23 @@
         android:textColor="@color/colorLightText"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/results_wrong_text" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_results_correct_number" />
+
+    <TextView
+        android:id="@+id/txt_results_missed_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/work_sans"
+        android:text="NA"
+        android:textColor="@color/colorLightText"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_results_wrong_number" />
 
     <Button
-        android:id="@+id/results_home_btn"
+        android:id="@+id/btn_results_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
