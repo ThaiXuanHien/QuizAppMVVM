@@ -23,7 +23,7 @@
     </TextView>
 
     <TextView
-        android:id="@+id/start_feedback"
+        android:id="@+id/txt_start_feedback"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -41,13 +41,13 @@
     </TextView>
 
     <ProgressBar
-        android:id="@+id/start_progress"
+        android:id="@+id/pgb_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:indeterminate="true"
         android:indeterminateTint="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@id/start_feedback"
+        app:layout_constraintBottom_toTopOf="@id/txt_start_feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
