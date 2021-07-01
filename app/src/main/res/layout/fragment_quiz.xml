@@ -172,7 +172,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_quiz_option_three" />
 
     <Button
-        android:id="@+id/quiz_next_btn"
+        android:id="@+id/btn_next_question"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
