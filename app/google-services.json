@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551006993282",
+    "project_id": "quizappmvvm-1e771",
+    "storage_bucket": "quizappmvvm-1e771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551006993282:android:cfee7931d9b72edffb2d9b",
+        "android_client_info": {
+          "package_name": "com.hienthai.quizappmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551006993282-2bgbu47m0esp2pdm5np50rtpihgfjc1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHdiLSSMy17eBOQdeMYDakxoDK9-QVYaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551006993282-2bgbu47m0esp2pdm5np50rtpihgfjc1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
